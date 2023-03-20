@@ -3,20 +3,42 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My First Website</title>
+  <title>Your Luxury Brand</title>
   <link rel="stylesheet" href="styles.css">
   <script src="scripts.js" defer></script>
 </head>
 <body>
   <header>
-    <h1>Welcome to My First Website!</h1>
+    <nav>
+      <a href="#" class="logo">Your Luxury Brand</a>
+      <ul class="menu">
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1>Ultra-Premium Lounge Wear</h1>
+      <p>Experience the ultimate luxury in lounge wear.</p>
+      <button class="subscribe-btn">Subscribe for Updates</button>
+    </div>
   </header>
-  <main>
-    <p>This is a simple website created with HTML, CSS, and JavaScript.</p>
-    <button id="myButton">Click me!</button>
-  </main>
-  <footer>
-    <p>&copy; 2023 My First Website. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+
+  <section id="collections">
+    <h2>Our Collections</h2>
+    <!-- Add more collection items as needed -->
+    <div class="collection-item">
+      <img src="path/to/your/image.jpg" alt="Product Name">
+      <h3>Product Name</h3>
+      <p>Product Description</p>
+      <button class="buy-btn" disabled>Coming Soon</button>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Your Luxury Brand</h2>
+    <p>Your brand's mission and unique selling points.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
